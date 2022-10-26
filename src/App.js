@@ -5,6 +5,8 @@ import videojs from 'video.js';
 import VideoJS from './components/VideoJS';
 import Video from './components/Video';
 import 'video.js/dist/video-js.css';
+import Carouset from "./components/Carouset";
+import Welcome from "./components/Welcome"
 
 function App() {
 
@@ -12,7 +14,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       </header>
-      <CameraSelect/>
+      <Welcome/>
     </div>
   );
 }

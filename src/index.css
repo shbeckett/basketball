@@ -26,36 +26,41 @@ code {
 }
 .topleft {
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 30%;
 }
 .topright {
   position: absolute;
-  top: 20%;
+  top: 10%;
   right: 30%;
 }
 .bottomleft {
   position: absolute;
-  bottom: 20%;
+  bottom: 10%;
   left: 30%;
 }
 .bottomright {
   position: absolute;
-  bottom: 20%;
+  bottom: 10%;
   right: 30%;
 }
 .goalleft {
   position: absolute;
   bottom: 45%;
-  left: 15%;
+  left: 10%;
 }
 .goalright {
   position: absolute;
   bottom: 45%;
-  right: 15%;
+  right: 10%;
 }
 .buttonimg {
   width: 50px;
   height: 50px;
   object-fit: cover;
+}
+.bigplayer {
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
 }

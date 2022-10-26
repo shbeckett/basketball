@@ -10,11 +10,10 @@ return(
     <>
     <h3>Live 360 Immersive Basketball</h3>
     <h5>Click on a camera to select your view</h5>
-    {stream &&
-        <Video src={stream}/>
-    }
     <div className="parent" style={{backgroundImage:"url(/court.png)"}}> 
-    
+    {stream &&
+        <Video className="bigplayer" width="300px"src={stream}/>
+    }
 {
 cameraProps.map( (data, key)=> {
     function handleClick() {
