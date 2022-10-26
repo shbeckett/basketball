@@ -12,9 +12,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       </header>
-      <div>
       <CameraSelect/>
-      </div>
     </div>
   );
 }
