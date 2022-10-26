@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from 'react-material-ui-carousel'
-import { Paper, Button } from '@mui/material'
+import { Paper } from '@mui/material'
 
 export default function Carouset (props) {
 
@@ -37,9 +37,6 @@ function Item(props)
             <p>{props.item.description}</p>
 
             <video width="300" controls><source src={props.item.src} type="video/mp4"></source></video>
-            <Button className="CheckButton">
-                Check it out!
-            </Button>
         </Paper>
     )
 
