@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Popover, OverlayTrigger, Button, Tooltip } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import {cameraProps} from "./CameraProps.js";
 import Video from "./Video.jsx";
 
@@ -22,11 +22,7 @@ cameraProps.map( (data, key)=> {
         console.log(stream);
     }
     return (
-        
-        <>
-  <img className={data.style} width="100px" src="camera.png" alt="360 camera"/> 
-  <Button className={data.style} onClick={handleClick}>{data.title}<img className="buttonimg" src={data.poster} alt="your view"/></Button>  
-  </>
+  <Button className={data.style} onClick={handleClick}><img width="50px" src="camera.png" alt="360 camera"/> {data.title} <img className="buttonimg" src={data.poster} alt="your view"/></Button>  
 )
 }
 )    
